@@ -351,7 +351,10 @@ li{
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
+<<<<<<< HEAD
     overflow-x: hidden; /* Conserta bug do AOS em mobile*/
+=======
+>>>>>>> 2603b9ce999c9e80682153ac8b055a32c4bfbf9f
 }
 
 .porfolio-item:last-child{
@@ -685,4 +688,8 @@ li{
         right: 5rem;
     }
 }
+<<<<<<< HEAD
 /*End media queries*/
+=======
+/*End media queries*/
+>>>>>>> 2603b9ce999c9e80682153ac8b055a32c4bfbf9f
