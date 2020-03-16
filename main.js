@@ -18,10 +18,6 @@ $(document).ready(function () {
     AOS.init({
         easing: 'ease',
         duration: 1800,
-        once: true,
-<<<<<<< HEAD
-=======
-        disable: 'mobile'
->>>>>>> 2603b9ce999c9e80682153ac8b055a32c4bfbf9f
+        once: true
     });
 });
