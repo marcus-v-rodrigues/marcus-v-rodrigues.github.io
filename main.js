@@ -15,6 +15,8 @@ $(document).ready(function () {
         }, 2000);
     });
 
+    $('[data-aos]').parent().addClass('hideOverflowOnMobile');
+
     AOS.init({
         easing: 'ease',
         duration: 1800,

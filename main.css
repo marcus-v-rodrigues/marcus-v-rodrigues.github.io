@@ -464,11 +464,13 @@ li{
 
 /*Start media queries*/
 @media screen and (max-width: 768px) {
+    .hideOverflowOnMobile {
+        overflow: hidden;
+    }
+    
     body{
         background: url("images/portfolio_background.jpg") no-repeat center fixed;
         background-size: cover;
-        overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
-
     }
 
     .landing-text h1{
@@ -549,7 +551,6 @@ li{
     body{
         background: url("images/portfolio_background.jpg") no-repeat center fixed;
         background-size: cover;
-        overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
     }
 
     p{
