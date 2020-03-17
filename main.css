@@ -32,6 +32,9 @@ img{
 
 section{
     padding: 5rem 0;
+    width: 100%;
+    float: left;
+    overflow: hidden;
 }
 /*End global*/
 
