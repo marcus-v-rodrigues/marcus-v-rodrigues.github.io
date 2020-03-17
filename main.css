@@ -36,6 +36,12 @@ section{
     float: left;
     overflow: hidden;
 }
+
+.footer{
+    width: 100%;
+    float: left;
+    overflow: hidden; 
+}
 /*End global*/
 
 /*Start reusable*/
