@@ -48,7 +48,6 @@ section{
     margin: 0 auto;
     position: relative;
     overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
-    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
 }
 
 .section-heading{
