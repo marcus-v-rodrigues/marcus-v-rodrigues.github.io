@@ -15,10 +15,6 @@ html{
     background-size: cover;
 }
 
-body{
-    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
-}
-
 a{
     text-decoration: none;
     color: #eee;
@@ -562,6 +558,7 @@ li{
     body{
         background: url("images/portfolio_background.jpg") no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
     }
 
     p{
