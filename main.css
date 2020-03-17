@@ -219,6 +219,7 @@ li{
     align-items: center;
     justify-content: center;
     overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
+    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
 }
 
 .about-heading{
