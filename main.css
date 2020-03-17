@@ -248,7 +248,6 @@ li{
 
 .profile-img{
     margin-right: 5rem;
-    overflow: hidden;
     border-radius: 100%; /*Gera a esfericidade da imagem*/
     flex: 1; /* Como o container é display: flex, o fato do .profile-img 
              e o .about-details serem flex: 1 faz com que ambos ocupem 50% do width;*/
@@ -470,15 +469,10 @@ li{
 /*End animations*/
 
 /*Start media queries*/
-@media screen and (max-width: 768px) {
-    .hideOverflowOnMobile {
-        overflow: hidden;
-    }
-    
+@media screen and (max-width: 768px) {    
     body{
         background: url("images/portfolio_background.jpg") no-repeat center fixed;
         background-size: cover;
-        overflow-x: hidden;
     }
 
     .landing-text h1{
@@ -668,7 +662,7 @@ li{
         margin: 0 0 0 auto; 
         padding: 3rem;
         width: 75%;
-        overflow: visible;
+        overflow: visible; /*Serve para fazer oas datas aparecerem*/
     }
 
     .timeline p{
