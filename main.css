@@ -32,15 +32,13 @@ img{
 
 section{
     padding: 5rem 0;
-    width: 100%;
-    float: left;
-    overflow: hidden;
+    width: 100%;       /*Serve para corrigir o bug do excesso na borda direita causado pelo fade-right/left do AOS*/
+    overflow: hidden; /*Serve para corrigir o bug do excesso na borda direita causado pelo fade-right/left do AOS*/
+    float: left;     /*Serve para corrigir o bug do excesso na borda direita causado pelo fade-right/left do AOS*/
 }
 
-.footer{
-    width: 100%;
-    float: left;
-    overflow: hidden; 
+footer{
+    clear: both; /*Serve para impedir que o .footer flutue por causa do float: left do .section*/
 }
 /*End global*/
 
@@ -670,6 +668,7 @@ li{
         margin: 0 0 0 auto; 
         padding: 3rem;
         width: 75%;
+        overflow: visible;
     }
 
     .timeline p{
