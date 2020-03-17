@@ -13,6 +13,7 @@ html{
     color: #eee;
     background: url("images/portfolio_background.jpg") no-repeat center fixed;
     background-size: cover;
+    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
 }
 
 a{
@@ -361,6 +362,11 @@ li{
 /*End services*/
 
 /*Start timeline*/
+.experience .container{
+    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
+    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
+}
+
 .timeline ul{
     border-left: 4px solid #640564;
     border-radius: .8rem;
@@ -370,8 +376,6 @@ li{
     padding: 5rem;
     list-style: none;
     width: 75%;
-    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
-    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
 }
 
 .timeline h1{
