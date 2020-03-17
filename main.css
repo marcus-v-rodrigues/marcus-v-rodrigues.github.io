@@ -43,6 +43,7 @@ section{
     height: 100%;
     margin: 0 auto;
     position: relative;
+    overflow-x: hidden; /* Conserta bug do AOS em mobile*/
 }
 
 .section-heading{
@@ -243,7 +244,6 @@ li{
 .profile-img{
     margin-right: 5rem;
     overflow: hidden;
-    overflow-x: hidden; /* Conserta bug do AOS em mobile*/
     border-radius: 100%; /*Gera a esfericidade da imagem*/
     flex: 1; /* Como o container é display: flex, o fato do .profile-img 
              e o .about-details serem flex: 1 faz com que ambos ocupem 50% do width;*/
@@ -256,7 +256,6 @@ li{
 
 .about-details{
     flex: 1;
-    overflow-x: hidden; /* Conserta bug do AOS em mobile*/
 }
 
 /*End about*/
@@ -293,7 +292,6 @@ li{
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    overflow-x: hidden; /* Conserta bug do AOS em mobile*/
 }
 
 .skill h1{
@@ -351,7 +349,6 @@ li{
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
-    overflow-x: hidden; /* Conserta bug do AOS em mobile*/
 }
 
 .porfolio-item:last-child{
@@ -385,7 +382,6 @@ li{
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     position: relative;
-    overflow-x: hidden; /* Conserta bug do AOS em mobile*/
 }
 
 .timeline .date:last-of-type{
