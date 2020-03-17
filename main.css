@@ -43,7 +43,6 @@ section{
     height: 100%;
     margin: 0 auto;
     position: relative;
-    overflow-x: hidden; /* Conserta bug do AOS em mobile*/
 }
 
 .section-heading{
