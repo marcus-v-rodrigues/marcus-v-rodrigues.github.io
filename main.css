@@ -16,8 +16,8 @@ html{
 }
 
 body{
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
+    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
 }
 
 a{
@@ -29,7 +29,6 @@ p{
     font-size: 1.6rem;
     font-weight: 100;
     text-align: justify;
-
 }
 
 img{
@@ -48,6 +47,8 @@ section{
     height: 100%;
     margin: 0 auto;
     position: relative;
+    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
+    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
 }
 
 .section-heading{
