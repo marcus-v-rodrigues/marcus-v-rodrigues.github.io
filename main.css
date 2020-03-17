@@ -471,6 +471,7 @@ li{
     body{
         background: url("images/portfolio_background.jpg") no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden;
     }
 
     .landing-text h1{
