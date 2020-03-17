@@ -218,8 +218,6 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
-    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
 }
 
 .about-heading{
@@ -266,8 +264,6 @@ li{
     text-align: center;
     display: grid;
     grid-gap: 2.5rem;
-    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
-    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); /*Gera um grid com um número de campos necessário para preencher o espaço, 
                                                                  sendo cada um deles com um tamanho mínimo de 25rem, e o tamanho máximo com o 
                                                                  valor da fração entre os números de campos*/
@@ -351,8 +347,6 @@ li{
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
-    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
-    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
 }
 
 .porfolio-item:last-child{
@@ -361,11 +355,6 @@ li{
 /*End services*/
 
 /*Start timeline*/
-.experience .container{
-    overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
-    overflow-y: hidden; /*Corrige bug do fade-right ou fade-left*/
-}
-
 .timeline ul{
     border-left: 4px solid #640564;
     border-radius: .8rem;
@@ -478,6 +467,8 @@ li{
     body{
         background: url("images/portfolio_background.jpg") no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden; /*Corrige bug do fade-right ou fade-left*/
+
     }
 
     .landing-text h1{
