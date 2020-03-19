@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     AOS.init({
         easing: 'ease',
-        duration: 1800,
+        duration: 900,
         once: true
     });
 });
